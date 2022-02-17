@@ -88,11 +88,11 @@ subtitle = "We have a team of highly experienced, skillful doctors dedicated to 
 # social icon
 [[params.socialIcon]]
 icon = "ion-social-facebook"
-url = "#"
+url = "https://www.facebook.com/BlueskyHealthLtd/"
 
-[[params.socialIcon]]
-icon = "ion-email"
-url = "#"
+#[[params.socialIcon]]
+#icon = "ion-email"
+#url = "#"
 
 [[params.socialIcon]]
 icon = "ion-call-48-filled"
