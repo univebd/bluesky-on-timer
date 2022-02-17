@@ -1,9 +1,8 @@
-baseURL = "https://demo.gethugothemes.com/timer/site/"
+baseURL = "https://blueskyhealth.netlify.app/"
+
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "Blue Sky Health Ltd."
 theme = "timer-hugo"
-# post pagination
-paginate = "2" # see https://gohugo.io/extras/pagination/
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
@@ -12,31 +11,26 @@ paginate = "2" # see https://gohugo.io/extras/pagination/
 name = "Home"
 url = "/"
 weight = 1
-
 [[menu.main]]
 name = "About"
 url = "about/"
 weight = 2
-
-[[menu.main]]
-name = "Service"
-url = "service/"
-weight = 3
-
-[[menu.main]]
-name = "Gallery"
-url = "gallery/"
-weight = 4
-
-[[menu.main]]
-name = "Blog"
-url = "blog/"
-weight = 5
-
-[[menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 6
+#[[menu.main]]
+#name = "Service"
+#url = "service/"
+#weight = 3
+#[[menu.main]]
+#name = "Gallery"
+#url = "gallery/"
+#weight = 4
+#[[menu.main]]
+#name = "Blog"
+#url = "blog/"
+#weight = 5
+#[[menu.main]]
+#name = "Contact"
+#url = "contact/"
+#weight = 6
 
 # Site Params
 [params]
@@ -44,7 +38,7 @@ home = "Home"
 logo = "images/logo.png"
 dateFormat = "6 January 2006"
 # Meta data
-description = "Timer Hugo theme"
+description = "Airspace Hugo theme"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
@@ -54,42 +48,42 @@ contactFormAction = "#" # contact form works with https://formspree.io
 # Banner Section
 [params.banner]
 enable = true
-bgImage = "images/slider.jpg"
-heading = "HI, MY NAME IS JONATHON & I AM A"
-description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+bgImage = "images/services.jpg"
+heading = "Welcome to Blue Sky Health Ltd"
+description = "A complete Diagnostic Center with all services."
 # button
 btn = true
-btnText = "Download More"
-btnURL = "https://themefisher.com/"
+btnText = "Learn More"
+btnURL = "https://www.facebook.com/BlueskyHealthLtd/"
 
 # flip text
 [[params.banner.flipText]]
-title = "DESIGNER"
+title = "Top-notch quality"
 [[params.banner.flipText]]
-title = "DEVELOPER"
+title = "Latest Technology"
 [[params.banner.flipText]]
-title = "FATHER"
+title = "Qualified Doctors"
 
 # Homepage About Section
 [params.about]
 enable = true
-title = "ABOUT ME"
-content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
-image = "images/about/about.jpg"
+title = "Our Services"
+content = "Blue Sky Health is a modern diagnostic centre equipped with cutting-edge medical technologies imported from japan including the latest 64 slice city scan machine. We're offering a range of services including imaging and pathology. You can easily book our services by calling our hotline number. We have a team of highly qualified doctors available to provide you consultation on any issue."
+image = "images/service2.jpg"
 
 # Call to Action
 [params.cta]
 enable = true
-title = "SO WHAT YOU THINK ?"
-content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-btnText = "Contact with me"
-btnURL = "contact/"
+title = "Contact Us to set your Appointment"
+content = "Call on our hotline number 01958277500 to set your appointment now!<br>Email: blueskyhealthltd@gmail.com"
+btnText = "Connect with Us"
+btnURL = "https://www.facebook.com/BlueskyHealthLtd/"
 
 # Portfolio Section On Homepage
 [params.portfolio]
 enable = true
-title = "Latest Works"
-subtitle = "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+title = "Our Doctors"
+subtitle = "We have a team of highly experienced, skillful doctors dedicated to provide our patients with world-class healthcare. Our doctors are assisted by seasoned nurses and technologists."
 
 # social icon
 [[params.socialIcon]]
@@ -97,9 +91,11 @@ icon = "ion-social-facebook"
 url = "#"
 
 [[params.socialIcon]]
-icon = "ion-social-instagram"
+icon = "ion-email"
 url = "#"
 
 [[params.socialIcon]]
-icon = "ion-social-linkedin"
+icon = "ion-call-48-filled"
 url = "#"
+
+
