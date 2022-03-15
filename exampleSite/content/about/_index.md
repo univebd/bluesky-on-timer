@@ -8,4 +8,4 @@ draft: false
 
 
 
-Blue Sky Health is a modern diagnostic centre that was established with the vision of providing world class service at an affordable cost.
+
