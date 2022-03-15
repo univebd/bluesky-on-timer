@@ -1,8 +1,10 @@
 enable  : true
 title   : Why We are Different
 description: >
-We have the latest Artifical Intennligence enabled technologies for better diagnostic results and lesser radiations. You can be assured of that you are on good hands  <br>
+We have the latest Artifical Intennligence enabled technologies for better diagnostic results and lesser radiations. You can be assured of that you are on good hands.
   <br>
+  <br>
+  You can call us on our hotline to know more about our services.
 image   : images/about/about-us.png
 aboutItem:
   - title : Why Choose Us
